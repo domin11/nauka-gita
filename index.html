@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>JS Components</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<nav class="navbar navbar-inverse">
+  			<div class="container-fluid">
+    			<div class="navbar-header">
+	     			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#my-navbar">
+	        			<span class="icon-bar"></span>
+	            		<span class="icon-bar"></span>
+	            		<span class="icon-bar"></span>
+	          		</button>
+      				<a class="navbar-brand" href="#"></a>
+    			</div>
+    			<div class="collapse navbar-collapse" id="my-navbar">
+	   				<ul class="nav navbar-nav">
+				        <li><a href="#">Home</a></li>
+				        <li><a href="#">About us</a></li>
+				        <li><a href="#">Contact</a></li>
+				        <li class="dropdown">
+                			<a href="#" class="dropdown-toggle" data-toggle="dropdown">Disciplines<span class="caret"></span></a>
+                			<ul class="dropdown-menu" role="menu">
+                  				<li><a href="#">Athletics</a></li>
+				                  <li><a href="#">Combat sports</a></li>
+				                  <li><a href="#">Football</a></li>
+				                  <li><a href="#">Basketball</a></li>
+				                  <li><a href="#">Cycling</a></li>
+			                </ul>
+			              </li>
+	        		</ul>
+	      			<form class="navbar-form navbar-right" role="search">
+	    				<div class="form-group">
+	        				 <input type="text" class="form-control" placeholder="Search">
+	        			</div>
+	        			<button type="submit" class="btn btn-default">Search</button>
+	        		</form>
+	  			</div>
+  			</div>
+		</nav>
+		<div class="hero container-fluid">
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				<ol class="carousel-indicators">
+				    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				    <li data-target="#myCarousel" data-slide-to="1"></li>
+				    <li data-target="#myCarousel" data-slide-to="2"></li>
+				    <li data-target="#myCarousel" data-slide-to="3"></li>
+				    <li data-target="#myCarousel" data-slide-to="4"></li>
+				</ol>
+				<div class="carousel-inner" role="listbox">
+					<div class="item active picture-1">
+					</div>
+					<div class="item picture-2">
+					</div>
+					<div class="item picture-3">
+					</div>
+					<div class="item picture-4">
+					</div>
+					<div class="item picture-5">
+					</div>
+				</div>
+				<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+  					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+  					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+  					<span class="sr-only">Next</span>
+				</a>
+			</div>
+		</div>
+			<div class"container">
+				<ul class="nav nav-tabs">
+				  <li class="active"><a data-toggle="tab" href="#athletics">Athletics</a></li>
+				  <li><a data-toggle="tab" href="#combat">Combat sports</a></li>
+				  <li><a data-toggle="tab" href="#football">Football</a></li>
+				  <li><a data-toggle="tab" href="#basketball">Basketball</a></li>
+				  <li><a data-toggle="tab" href="#cycling">Cycling</a></li>
+				</ul>
+			<div class="tab-content col-lg-8 col-lg-offset-2">
+			  <div id="athletics" class="tab-pane fade in active">
+			    <h3>Athletics</h3>
+			    <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eros velit, mollis sit amet tempor quis, egestas vitae nunc. Nulla at nibh justo. Duis mauris ex, viverra nec lectus in, imperdiet vestibulum nisi. Pellentesque pulvinar quam id ante feugiat, in hendrerit arcu pharetra. Praesent ut facilisis metus, vitae pharetra quam. Sed rhoncus viverra massa, sodales vestibulum purus sollicitudin lacinia. Donec feugiat justo id libero ullamcorper molestie. Integer placerat, est ac placerat gravida, massa diam lacinia nisi, non semper leo est sed nibh. Curabitur porttitor dapibus libero sit amet tincidunt. Aliquam consequat sem odio. In quis urna eu lacus blandit convallis in sit amet tortor. Fusce dapibus dictum tellus, ornare commodo odio eleifend quis. Praesent sem dui, eleifend lacinia nulla eget, luctus consequat urna. Maecenas accumsan odio orci, nec bibendum felis convallis ut. Aliquam ac lorem aliquet, tincidunt turpis vitae, lacinia quam. Mauris semper felis id nibh egestas, non posuere nunc gravida.
+					<br><br>Praesent lacus mi, tincidunt a mi sed, lacinia cursus	dolor. Nunc eu congue nunc. Pellentesque ac suscipit nisi. Proin ultrices quis eros ut imperdiet. Ut mattis blandit maximus. Curabitur malesuada non enim vel blandit. Proin sed blandit mauris, ac dapibus elit. Integer tortor leo, accumsan porttitor nisl vel, gravida congue ex. Nunc odio lorem, consequat ac varius ac, mollis vel ante. Nulla ut dolor orci. Aliquam mattis id massa ac viverra. Etiam auctor tortor eu accumsan pulvinar. In hac habitasse platea dictumst. Maecenas bibendum nulla finibus, vestibulum ipsum non, hendrerit turpis. Duis convallis sagittis lacinia.</p>
+			  </div>
+			  <div id="combat" class="tab-pane fade">
+			    <h3>Combat sports</h3>
+			    <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in urna augue. Aenean imperdiet justo vitae ante consectetur accumsan. Duis neque nisi, ornare non ante a, dictum lacinia justo. Nunc a elit lectus. Cras a dolor ac tellus cursus euismod ac ac dolor. Phasellus tristique urna dapibus ante ornare mollis. Sed pharetra orci et eleifend efficitur. Nullam tincidunt iaculis elit, et auctor arcu dapibus eu. Aenean vehicula sit amet leo ut elementum.
+			    	<br><br>Etiam eget finibus metus, imperdiet faucibus arcu. Nullam mattis sit amet erat rhoncus laoreet. Aliquam tristique augue risus, ut elementum turpis placerat ut. Nam massa orci, lobortis non porta sit amet, vehicula vitae velit. Donec venenatis metus vel nisi pellentesque lacinia. Proin ac magna vel enim ornare posuere. Ut tincidunt urna eget nisi aliquam, eu laoreet orci ornare. Integer facilisis, quam a egestas ornare, magna quam scelerisque est, vel auctor libero ex nec quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam ut vulputate magna. Mauris neque eros, facilisis nec posuere sed, elementum sit amet tellus. Cras ac congue nisl. Cras vel porttitor nulla, ac commodo justo. Curabitur feugiat dui id purus varius vestibulum.</p>
+			  </div>
+			  <div id="football" class="tab-pane fade">
+			    <h3>Football</h3>
+			    <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in urna augue. Aenean imperdiet justo vitae ante consectetur accumsan. Duis neque nisi, ornare non ante a, dictum lacinia justo. Nunc a elit lectus. Cras a dolor ac tellus cursus euismod ac ac dolor. Phasellus tristique urna dapibus ante ornare mollis. Sed pharetra orci et eleifend efficitur. Nullam tincidunt iaculis elit, et auctor arcu dapibus eu. Aenean vehicula sit amet leo ut elementum.
+			    	<br><br>Etiam eget finibus metus, imperdiet faucibus arcu. Nullam mattis sit amet erat rhoncus laoreet. Aliquam tristique augue risus, ut elementum turpis placerat ut. Nam massa orci, lobortis non porta sit amet, vehicula vitae velit. Donec venenatis metus vel nisi pellentesque lacinia. Proin ac magna vel enim ornare posuere. Ut tincidunt urna eget nisi aliquam, eu laoreet orci ornare. Integer facilisis, quam a egestas ornare, magna quam scelerisque est, vel auctor libero ex nec quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam ut vulputate magna. Mauris neque eros, facilisis nec posuere sed, elementum sit amet tellus. Cras ac congue nisl. Cras vel porttitor nulla, ac commodo justo. Curabitur feugiat dui id purus varius vestibulum.</p>
+			  </div>
+			  <div id="basketball" class="tab-pane fade">
+			    <h3>Basketball</h3>
+			    <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in urna augue. Aenean imperdiet justo vitae ante consectetur accumsan. Duis neque nisi, ornare non ante a, dictum lacinia justo. Nunc a elit lectus. Cras a dolor ac tellus cursus euismod ac ac dolor. Phasellus tristique urna dapibus ante ornare mollis. Sed pharetra orci et eleifend efficitur. Nullam tincidunt iaculis elit, et auctor arcu dapibus eu. Aenean vehicula sit amet leo ut elementum.
+			    	<br><br>Etiam eget finibus metus, imperdiet faucibus arcu. Nullam mattis sit amet erat rhoncus laoreet. Aliquam tristique augue risus, ut elementum turpis placerat ut. Nam massa orci, lobortis non porta sit amet, vehicula vitae velit. Donec venenatis metus vel nisi pellentesque lacinia. Proin ac magna vel enim ornare posuere. Ut tincidunt urna eget nisi aliquam, eu laoreet orci ornare. Integer facilisis, quam a egestas ornare, magna quam scelerisque est, vel auctor libero ex nec quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam ut vulputate magna. Mauris neque eros, facilisis nec posuere sed, elementum sit amet tellus. Cras ac congue nisl. Cras vel porttitor nulla, ac commodo justo. Curabitur feugiat dui id purus varius vestibulum.</p>
+			  </div>
+			  <div id="cycling" class="tab-pane fade">
+			    <h3>Cycling</h3>
+			    <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in urna augue. Aenean imperdiet justo vitae ante consectetur accumsan. Duis neque nisi, ornare non ante a, dictum lacinia justo. Nunc a elit lectus. Cras a dolor ac tellus cursus euismod ac ac dolor. Phasellus tristique urna dapibus ante ornare mollis. Sed pharetra orci et eleifend efficitur. Nullam tincidunt iaculis elit, et auctor arcu dapibus eu. Aenean vehicula sit amet leo ut elementum.
+			    	<br><br>Etiam eget finibus metus, imperdiet faucibus arcu. Nullam mattis sit amet erat rhoncus laoreet. Aliquam tristique augue risus, ut elementum turpis placerat ut. Nam massa orci, lobortis non porta sit amet, vehicula vitae velit. Donec venenatis metus vel nisi pellentesque lacinia. Proin ac magna vel enim ornare posuere. Ut tincidunt urna eget nisi aliquam, eu laoreet orci ornare. Integer facilisis, quam a egestas ornare, magna quam scelerisque est, vel auctor libero ex nec quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam ut vulputate magna. Mauris neque eros, facilisis nec posuere sed, elementum sit amet tellus. Cras ac congue nisl. Cras vel porttitor nulla, ac commodo justo. Curabitur feugiat dui id purus varius vestibulum.</p>
+			  </div>
+			</div>
+		</div>
+		<section class="container ">
+			<div class="text-center">
+				<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Contact us</button>
+			</div>	
+			<div id="myModal" class="modal fade" role="dialog">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<form>
+							<div class="name">
+								<label for"name">Name</label>
+								<input type="text" class="form-control" id="name" placeholder="name surname">
+							</div>
+							<div class="email">
+								<label for"email">E-mail</label>
+								<input type="email" class="form-control" id="email" placeholder="e-mail adress">
+							</div>
+							<div class="questions">
+								<label for"questions">Your questions</label>
+								<textarea name="questions" id="questions" class="form-control" rows="7" required></textarea>
+							</div>	
+						</form>
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</scetion>
+	</body>
+</html>
