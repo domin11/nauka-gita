@@ -1,0 +1,29 @@
+[33mcommit 4352b7241f198111282f2adf57c8332bec5e9c0f[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;33mtag: v2[m[33m)[m
+Author: Dominik Soboń <dominik.sobon@gmail.com>
+Date:   Thu May 24 00:36:04 2018 +0200
+
+    Change h1 and h3
+
+[33mcommit d9f55da07c0ad688f75d68c1da984fca530443ca[m
+Author: Dominik Soboń <dominik.sobon@gmail.com>
+Date:   Thu May 24 00:33:08 2018 +0200
+
+    Change title again
+
+[33mcommit 575a08ecadd0f90b2a2e8c408ef5dd57ece30dd0[m
+Author: Dominik Soboń <dominik.sobon@gmail.com>
+Date:   Thu May 24 00:30:48 2018 +0200
+
+    Change title, add h1
+
+[33mcommit 8fc8fcd649892ff10b6913780fa27847a311f052[m[33m ([m[1;33mtag: v1[m[33m)[m
+Author: Dominik Soboń <dominik.sobon@gmail.com>
+Date:   Sun May 20 13:07:24 2018 +0200
+
+    Add scss files
+
+[33mcommit 5835216060b1c4fd17b4be976fbacfad925ac1ad[m
+Author: Dominik Soboń <dominik.sobon@gmail.com>
+Date:   Sun May 20 12:58:53 2018 +0200
+
+    Add index.html
